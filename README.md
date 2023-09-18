@@ -6,7 +6,7 @@ PyTorch Implementation of SNSCL (accepted to CVPR 2023).
 Python 3.8,  Pytorch 1.11,  CUDA 11.1
 
 ### 2. Dataset
-Before running the code, you can create a fold '/dataset/{}' and download datasets from following links. 
+Before running the code, you should create a fold '/dataset/{}' and download datasets from following links. 
 
 &nbsp;&nbsp; Stanford Dog: http://vision.stanford.edu/aditya86/ImageNetDogs/  
 &nbsp;&nbsp; Stanford Car: https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset  
