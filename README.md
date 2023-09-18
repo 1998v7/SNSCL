@@ -23,6 +23,7 @@ python vanilla_w_SNSCL.py  --dataset {dog, car, aircraft, cub}
                            --noise_r 0.2
                            --gpu 0
 ```
+Some training records can be found in <a href='https://drive.google.com/drive/folders/1T78Oqur2n5_ddwsYX0ZNva7KX2QKpY1w?usp=drive_link'>Google drive<a/>.
 
 ### Contact
 If you have any problem about our code, feel free to contact 1998v7@gmail.com
