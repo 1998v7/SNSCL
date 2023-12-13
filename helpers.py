@@ -53,16 +53,16 @@ def get_dataloader(args):
 
     if args.dataset == 'aircraft':
         from dataloader.aircraft_loader import Aircraft
-        data_path = 'dataset'
+        data_path = 'dataset/aircraft'
         train_dataset = Aircraft(data_path, transform=transform_train, train=True,  noise=args.noise, noise_r=args.noise_r, args=args)
         test_dataset = Aircraft(data_path, transform=transform_test, train=False,  args=args)
-    elif args.dataset == 'dog':
+    elif args.dataset == 'dataset/dog':
         from dataloader.dogs_loader import Dogs
-        data_path = '/home/weiqi/noise_FGVC/dataset/stf_dog'
+        data_path = 'dataset/stf_dog'
         train_dataset = Dogs(data_path, transform=transform_train, train=True, noise=args.noise, noise_r=args.noise_r, args=args)
         test_dataset = Dogs(data_path, transform=transform_test, train=False, args=args)
 
-    elif args.dataset == 'cub':
+    elif args.dataset == 'dataset/cub':
         from dataloader.cub_loader import Cub2011
         data_path = 'dataset/cub2011'
         train_dataset = Cub2011(data_path, transform=transform_train, train=True, noise=args.noise, noise_r=args.noise_r, args=args)
